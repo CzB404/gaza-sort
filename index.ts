@@ -19,8 +19,8 @@ function gazaSort(arr: number[]): number[] {
   }
 
   // Remove elements until the array is sorted
-  while (!isSorted(arr)) {
-    infamousDefenseFunction(arr); 
+  while (!isSorted()) {
+    infamousDefenseFunction(); 
   }
   return arr;
 }
