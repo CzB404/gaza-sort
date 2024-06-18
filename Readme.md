@@ -4,7 +4,7 @@ GazaSort sorts an array of numbers by randomly removing elements until the remai
 
 ### Usage
 
-```
+```ts
 import gazaSort from './gazaSort';
 
 const arr: number[] = [5, 3, 8, 1, 4];
@@ -13,7 +13,7 @@ const sortedArray: number[] = gazaSort(arr);
 
 ### Implementation
 
-```
+```ts
 /**
  * Sorts the array by randomly removing elements until the remaining array is sorted.
  * @param arr - The array of numbers to be sorted.
