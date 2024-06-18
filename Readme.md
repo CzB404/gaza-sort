@@ -7,8 +7,8 @@ GazaSort sorts an array of numbers by randomly removing elements until the remai
 ```
 import gazaSort from './gazaSort';
 
-const array: number[] = [5, 3, 8, 1, 4];
-const sortedArray: number[] = gazaSort(array);
+const arr: number[] = [5, 3, 8, 1, 4];
+const sortedArray: number[] = gazaSort(arr);
 ```
 
 ### Implementation
