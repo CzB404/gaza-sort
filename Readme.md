@@ -1,8 +1,8 @@
-#GazaSort
+# GazaSort
 
 GazaSort sorts an array of numbers by randomly removing elements until the remaining array is sorted. It’s inefficient and unpredictable.
 
-###Usage
+### Usage
 
 ```
 import gazaSort from './gazaSort';
