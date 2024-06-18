@@ -12,7 +12,7 @@ function gazaSort(arr: number[]): number[] {
     return true;
   }
 
-  // Carefully select and remove strategic target
+  // Carefully select and remove a strategic target
   function infamousDefenseFunction(): void {
     const highlyStrategicTarget = Math.floor(Math.random() * arr.length);
     arr.splice(highlyStrategicTarget, 1);
