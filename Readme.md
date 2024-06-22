@@ -43,10 +43,8 @@ function gazaSort(arr: number[]): number[] {
   // Return "sorted" array
   return arr;
 }
+```
 
 ### Give this Project a Star ⭐
 
 If you liked working on this project, please share this project as much as you can and star this project to help as many people in open source as you can.
-
-
-```
