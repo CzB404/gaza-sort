@@ -1,6 +1,6 @@
 # GazaSort
 
-GazaSort is a lossy sorting algorithm that sorts an array of numbers by randomly removing elements until the remaining array is sorted. Although it does return a sorted array, the algorithm focuses on randomly eliminating values rather than organizing them. Data loss is not seen as a flaw but as a feature. It mutates the original array with complete disregard for data integrity. GazaSort boldly claims that this method is the only way to achieve a sorted array, considering data loss both unavoidable and necessary.
+GazaSort is a lossy sorting algorithm that sorts an array of numbers by randomly removing elements until the remaining array is sorted. Although it does return a sorted array, the algorithm focuses on randomly eliminating values rather than organizing them. Data loss is not seen as a flaw but as a feature. It mutates the original array with complete disregard for data integrity. 
 
 ### Contributing
 
