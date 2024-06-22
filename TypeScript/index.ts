@@ -12,18 +12,13 @@ function gazaSort(arr: number[]): number[] {
     return true;
   }
 
-  // Carefully select and remove a strategic target
-  function infamousDefenseForces(): void {
-    const highlyStrategicTarget = Math.floor(Math.random() * arr.length);
-    arr.splice(highlyStrategicTarget, 1);
-  }
-
   // Remove elements until the array is sorted
   while (!isSorted()) {
-    infamousDefenseForces(); 
+    const randomTarget = Math.floor(Math.random() * arr.length);
+    arr.splice(randomTarget, 1);
   }
 
-  // Return "sorted" array
+  // Return sorted array
   return arr;
 }
 
