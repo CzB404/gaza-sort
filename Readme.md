@@ -12,7 +12,7 @@ We’re accepting help from anyone! This repo is collaborative, so if you want t
 - Follow the best practices in your chosen language.
 - Submit a pull request for review.
 
-### Sample Implementation in TypeScript.
+### Sample Implementation in TypeScript
 
 ```ts
 /**
